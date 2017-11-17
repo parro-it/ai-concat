@@ -1,6 +1,6 @@
 {
   "name": "ai-concat",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Concat an async iterable into a promise",
   "repository": "parro-it/ai-concat",
   "author": "Andrea Parodi <andrea@parro.it>",
