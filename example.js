@@ -1,3 +1,3 @@
-const $package_var = require("$package_name");
+const aiConcat = require("ai-concat");
 
-console.log({ $package_var });
+console.log({ aiConcat });
