@@ -1,15 +1,9 @@
-const reduce = accumulator => async iterable => {
-  let result = accumulator;
+import aiReduce from "ai-reduce";
 
-  for await (const chunk of iterable) {
-    result = result.concat(chunk);
-  }
+const reducer = (accumulator, item) => accumulator.concat(item);
 
-  return result;
-};
-
-const concat = reduce("");
-concat.obj = reduce([]);
-concat.buff = iterable => concat.obj(iterable).then(Buffer.concat);
+const concat = aiReduce.partial(reducer, "");
+concat.obj = aiReduce.partial(reducer, []);
+concat.buff = iterable => aiReduce(reducer, [], iterable).then(Buffer.concat);
 
 export default concat;

@@ -30,5 +30,9 @@
     "linterjs": "^1.11.0",
     "tap-colorize": "^1.2.0",
     "tape-async": "^2.3.0"
+  },
+  "dependencies": {
+    "ai-reduce": "^1.1.0",
+    "is-async-iterable": "^1.0.0"
   }
 }

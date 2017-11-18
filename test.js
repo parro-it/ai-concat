@@ -3,7 +3,7 @@ import fromStream from "ai-from-stream";
 import concat from ".";
 import AsyncIterable from "asynciterable";
 import { createReadStream } from "fs";
-
+console.log({ concat });
 function fromArray(arr) {
   return new AsyncIterable((write, end) => {
     arr.forEach(write);
