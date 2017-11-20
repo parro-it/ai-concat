@@ -7,22 +7,24 @@
 
 background details relevant to understanding what this module does
 
-## Async iterable fun
-__This module is part of [Async iterable fun](https://github.com/parro-it/ai-fun), a complete toolset of modules to work with async iterables.__
+> **_This module is part of
+> [Async iterable fun](https://github.com/parro-it/ai-fun), a complete toolset
+> of modules to work with async iterables._**
 
 ## Usage
 
 description of the example
 
 ```js
-const aiConcat = require('ai-concat');
+const aiConcat = require("ai-concat");
 
-console.log({aiConcat});
+console.log({ aiConcat });
 ```
 
 This will output
 
 ```
+
 ```
 
 ## API
@@ -37,11 +39,9 @@ npm install --save ai-concat
 
 ## See Also
 
-- [`noffle/common-readme`](https://github.com/noffle/common-readme)
-- [`parro-it/ai-fun`](https://github.com/parro-it/ai-fun)
-
+* [`noffle/common-readme`](https://github.com/noffle/common-readme)
+* [`parro-it/ai-fun`](https://github.com/parro-it/ai-fun)
 
 ## License
 
 MIT
-
