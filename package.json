@@ -5,16 +5,13 @@
   "repository": "parro-it/ai-concat",
   "author": "Andrea Parodi <andrea@parro.it>",
   "license": "MIT",
-  "files": [
-    "index.js",
-    "example.js"
-  ],
+  "files": ["index.js", "example.js"],
   "scripts": {
-    "test": "node --harmony_async_iteration -r @std/esm test.js | tap-colorize - && linterjs .",
+    "test": "node -r @std/esm test.js | tap-colorize - && linterjs .",
     "doc": "documentation readme index.js --section=API"
   },
   "engines": {
-    "node": ">9"
+    "node": ">=7"
   },
   "keywords": [
     "ai-fun",
@@ -50,7 +47,7 @@
     "tape-async": "^2.3.0"
   },
   "dependencies": {
-    "ai-reduce": "^2.0.0",
+    "ai-reduce": "^2.1.0",
     "is-async-iterable": "^1.0.0"
   }
 }
